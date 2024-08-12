@@ -1,0 +1,39 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  max-width: 1500px; /* Set a max-width to prevent stretching */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Optional: Add padding if needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Set a fixed height for all slides */
+}
+
+.slide-image {
+  width: 100%; /* Adjusted to use full width of the slide */
+  height: 100%;
+  border: 20px solid rgba(241, 212, 47, 0.934); /* Set border to 20px and color to golden */
+  border-radius: 30px;
+  object-fit: cover;
+  filter: blur(0px); /* Apply blur effect to the images */
+}
+
+.slide-text {
+  position: absolute;
+  top: 70%; /* Position the text 70% from the top of the container */
+  color: white;
+  margin-left: 20px; /* Set the left margin to 20px */
+  margin-right: 20px; /* Set the right margin to 20px */
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: calc(100% - 40px); /* Adjust the width to account for the left and right margins */
+}
+

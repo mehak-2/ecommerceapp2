@@ -1,0 +1,28 @@
+.offers {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between; /* Distribute space between the image sections */
+  align-items: center; /* Center images and text vertically */
+}
+
+.offers-left, .offers-right {
+  flex: 1; /* Ensure both sections take up equal space */
+  display: flex;
+  flex-direction: column; /* Stack images and text vertically */
+  align-items: center; /* Center align content horizontally */
+  margin: 0 25px; /* Margin to create a 50px gap between sections */
+}
+
+.offers-left img, .offers-right img {
+  width: 100%; /* Set equal width for both images */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Set a max width if needed */
+}
+
+.offers-left h1, .offers-right h1 {
+  font-size: 20px;
+  margin-top: 25px; /* Space between image and text */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white; /* Adjust the color as needed */
+  text-align: center; /* Center align the text */
+}
